@@ -126,3 +126,26 @@ a {
         text-align: center;
     }
 }
+
+.link {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding-bottom: 3px;
+
+    &::before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-color: $cyan-gradient;
+        content: '';
+    }
+
+    & > a {
+        font-family: 'Open Sans';
+        color: $cyan-gradient;
+    }
+}
