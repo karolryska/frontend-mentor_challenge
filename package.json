@@ -1,0 +1,25 @@
+{
+    "name": "frontend-mentor_challenge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.1.1",
+        "parcel": "^2.1.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx parcel src/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/karolryska/frontend-mentor_challenge.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/karolryska/frontend-mentor_challenge/issues"
+    },
+    "homepage": "https://github.com/karolryska/frontend-mentor_challenge#readme"
+}
