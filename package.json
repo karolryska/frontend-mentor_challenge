@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "sass": "^1.47.0"
+    },
     "devDependencies": {
         "@parcel/transformer-sass": "^2.1.1",
         "parcel": "^2.1.1"
