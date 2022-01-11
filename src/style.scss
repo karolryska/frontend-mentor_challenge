@@ -108,6 +108,10 @@ a {
     align-items: center;
     margin-bottom: 40px;
 
+    &--quote {
+        margin-bottom: 20px;
+    }
+
     &:nth-last-child(1) {
         margin-bottom: 0;
     }
@@ -147,5 +151,54 @@ a {
     & > a {
         font-family: 'Open Sans';
         color: $cyan-gradient;
+    }
+}
+
+.quotes {
+    position: relative;
+
+    &::before {
+        position: absolute;
+    }
+}
+
+.quote {
+    width: 80%;
+    padding: 16px;
+    background-color: $dark-blue04;
+    font-size: 14px;
+    font-family: 'Open Sans';
+
+    &__text {
+        margin: 0 0 14px 0;
+    }
+
+    &__author {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        grid-template-rows: 20px 20px;
+        grid-template-areas:
+            'photo name'
+            'photo position';
+    }
+
+    &__author-photo {
+        grid-area: photo;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    &__author-info {
+        padding: 0 0 0 10px;
+        margin: 0;
+
+        &--name {
+            grid-area: name;
+        }
+
+        &--position {
+            grid-area: position;
+        }
     }
 }
