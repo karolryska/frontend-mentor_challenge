@@ -76,6 +76,11 @@ a {
     flex-direction: column;
     align-items: center;
 
+    &--padding {
+        padding: 24px;
+        background-color: $dark-blue01;
+    }
+
     &__img {
         width: 100%;
     }
@@ -100,6 +105,10 @@ a {
     padding: 0 60px;
     border: none;
     border-radius: 25px;
+
+    &--full-width {
+        width: 100%;
+    }
 }
 
 .article {
@@ -201,4 +210,12 @@ a {
             grid-area: position;
         }
     }
+}
+
+.input {
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
 }
