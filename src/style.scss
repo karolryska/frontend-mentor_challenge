@@ -212,10 +212,42 @@ a {
     }
 }
 
+.footer {
+    padding-bottom: 20px;
+}
+
 .input {
     height: 50px;
     width: 100%;
     border-radius: 25px;
     border: none;
     margin-bottom: 20px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30%;
+    list-style: none;
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 30px;
+        border: 1px solid $white;
+        border-radius: 15px;
+
+        & > a {
+            color: $white;
+            font-size: 15px;
+        }
+    }
 }
