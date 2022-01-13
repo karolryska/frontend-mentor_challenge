@@ -266,6 +266,11 @@ a {
         display: flex;
     }
 
+    &__icon {
+        margin-top: 0.4rem;
+        font-size: 12px;
+    }
+
     &__text {
         margin: 0 0 0 14px;
         @include text;
