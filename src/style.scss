@@ -171,6 +171,18 @@ a {
     }
 }
 
+.testimonials {
+    position: relative;
+
+    &__icon {
+        position: absolute;
+        top: 0;
+        left: 15%;
+        height: 24px;
+        transform: translateY(-100%);
+    }
+}
+
 .testimonial {
     width: 80%;
     padding: 16px;
