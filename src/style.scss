@@ -83,7 +83,8 @@ a {
 .content-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 120px;
+    margin: 20px 0 120px;
 }
 
 .section {
@@ -146,7 +147,7 @@ a {
     }
 
     &__text {
-        margin: 0 0 30px;
+        margin: 0;
         text-align: center;
         @include text;
     }
